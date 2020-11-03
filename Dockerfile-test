@@ -1,0 +1,9 @@
+FROM maven
+ENV KARATE_HOME /karate
+
+WORKDIR ${KARATE_HOME}
+
+RUN mkdir ${KARATE_HOME}/results
+
+COPY . $KARATE_HOME
+RUN chmod +x ./run.sh
