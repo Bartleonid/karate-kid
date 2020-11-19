@@ -1,4 +1,4 @@
-package com.presence.test;
+package com.project.test;
 
 import com.intuit.karate.junit5.Karate;
 

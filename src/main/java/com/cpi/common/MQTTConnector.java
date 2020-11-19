@@ -1,4 +1,4 @@
-package com.presence.common;
+package com.project.common;
 
 import org.eclipse.paho.client.mqttv3.MqttClient;
 import org.eclipse.paho.client.mqttv3.MqttConnectOptions;

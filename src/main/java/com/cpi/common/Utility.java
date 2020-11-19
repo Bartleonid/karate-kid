@@ -1,9 +1,6 @@
-package com.presence.common;
-
+package com.project.common;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-import java.util.logging.Logger;
-import java.io.IOException;
 
 public class Utility {
 

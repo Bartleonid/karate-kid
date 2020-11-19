@@ -8,7 +8,7 @@
   - [Preconditions](#Preconditions)
 
 ## Objective
-Objective was defined to provide automated functional Karate+MQTT tests for [cpi](https://github.com/) project.
+Objective was defined to provide automated functional Karate tests for [project](https://github.com/) project.
 
 ## Tech Stack
 - [maven](https://hub.docker.com/_/maven)
@@ -26,12 +26,7 @@ Docker container will be created and tests run with html report as outup in moun
 #### Preconditions
 * Env variables defined:
       - GIT_BRANCH=${GIT_BRANCH} (this var will be fetched from Jenkins server)
-should be supplied with required values for the test using td-cli:
-      - DEVICES_OAUTH_CLIENT_ID_QA=${DEVICES_OAUTH_CLIENT_ID_QA}
-      - DEVICES_OAUTH_CLIENT_SECRET_QA=${DEVICES_OAUTH_CLIENT_SECRET_QA}
-      - DEVICES_USERNAME_QA=${DEVICES_USERNAME_QA}
-      - DEVICES_PASSWORD_QA=${DEVICES_PASSWORD_QA}
-for more info regarding required variables for other environmnets please look at the docker-compose.yml file into section karate-tests 
+      other vars you can supply in docker-compose.yml file
 
 ## Acknowledgments
 
